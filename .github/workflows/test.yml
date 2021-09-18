@@ -28,7 +28,4 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: ${{ matrix.java }}
-      - run: |
-              ls
-              pwd      
-              java -cp java ArrayList
+      - run: java -cp java Main.java
