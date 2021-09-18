@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Java ausführen
 
 # Controls when the workflow will run
 on:
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        java: [ '8', '11', '16', 'latest' ]
+        java: [ '8', '11', '16']
     name: Java ${{ matrix.Java }} sample
     steps:
       - uses: actions/checkout@v2
@@ -28,4 +28,4 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: ${{ matrix.java }}
-      - run: java -cp java HelloWorldApp
+      - run: java -cp java ArrayList
