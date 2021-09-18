@@ -28,4 +28,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: ${{ matrix.java }}
-      - run: java -cp java src/ch/teko/prg2/day04/input/ArrayList/Main.java
+      - run: |
+              cd src/ch/teko/prg2/day04/input/ArrayList/
+              java -cp java Main.java
