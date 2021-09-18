@@ -17,7 +17,7 @@ public class Main {
          */
 
         // Variante foreach ("enhanced for")
-        for (Student s: classList) {
+        for (Student s : classList) {
             System.out.printf("%s %s, %f \n", s.getForename(), s.getSurname(), s.getGrade());
         }
 
@@ -28,7 +28,7 @@ public class Main {
 
         // Variante Iterator
         Iterator<Student> iterator = classList.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             // lokale variable s vom Typ Student
             Student s = iterator.next();
             System.out.printf("%s %s, %f \n", s.getForename(), s.getSurname(), s.getGrade());
@@ -39,13 +39,13 @@ public class Main {
 
 
         // Element aus der ArrayListe löschen
-        while (iterator.hasNext()){
-            if(iterator.next().getSurname().equals("Meier")) {
+        while (iterator.hasNext()) {
+            if (iterator.next().getSurname().equals("Meier")) {
                 iterator.remove();
             }
         }
 
-        for (Student s: classList) {
+        for (Student s : classList) {
             System.out.printf("%s %s, %f \n", s.getForename(), s.getSurname(), s.getGrade());
         }
 
