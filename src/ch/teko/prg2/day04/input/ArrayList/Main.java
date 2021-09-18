@@ -2,6 +2,7 @@ package ch.teko.prg2.day04.input.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import ch.teko.prg2.day04.input.ArrayList.*;
 
 public class Main {
     public static void main(String[] args) {
