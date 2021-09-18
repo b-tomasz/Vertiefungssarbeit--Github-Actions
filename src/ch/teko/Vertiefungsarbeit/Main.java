@@ -1,4 +1,4 @@
-package ch.teko.prg2.day04.input.ArrayList;
+package ch.teko.Vertiefungsarbeit;
 
 import java.util.ArrayList;
 
@@ -6,6 +6,5 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-
     }
 }
