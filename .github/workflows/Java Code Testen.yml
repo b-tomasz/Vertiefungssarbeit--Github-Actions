@@ -25,3 +25,10 @@ jobs:
           distribution: 'temurin'
           java-version: ${{ matrix.java }}
       - run: java -cp java src/ch/teko/Vertiefungsarbeit/Main.java
+
+      - uses: canastro/copy-action@0.0.2
+        with:
+        # Source file
+          source: src/ch/teko/Vertiefungsarbeit/Main.java
+        # Target file
+          target: Latest/
