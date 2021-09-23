@@ -11,4 +11,4 @@ jobs:
         src_path: src/ch/teko/Vertiefungsarbeit/Main.java
         dst_path: backup/
         dst_owner: b-tomasz
-        #dst_repo_name: Vertiefungssarbeit--Github-Actions
+        dst_repo_name: ./
