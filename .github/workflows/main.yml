@@ -8,7 +8,7 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: "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"
-        src_path: src/ch/teko/Vertiefungsarbeit/Main.java
-        dst_path: backup/
+        src_path: tree/main/src/ch/teko/Vertiefungsarbeit/Main.java
+        dst_path: tree/main/backup/
         dst_owner: b-tomasz
         dst_repo_name: ./
