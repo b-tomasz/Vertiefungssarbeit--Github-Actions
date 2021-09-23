@@ -11,5 +11,5 @@ jobs:
       uses: canastro/copy-file-action@master
       with:
         source: "src/ch/teko/Vertiefungsarbeit/Main.java"
-        target: "src/ch/teko/Vertiefungsarbeit/latest.java"
+        target: "latest.java"
 
