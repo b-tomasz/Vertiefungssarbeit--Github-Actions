@@ -9,6 +9,6 @@ jobs:
       with:
         personal_token: "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"
         src_path: src/ch/teko/Vertiefungsarbeit/Main.java
-        dst_path: /backup/
+        dst_path: backup/
         dst_owner: b-tomasz
         dst_repo_name: Vertiefungssarbeit--Github-Actions
