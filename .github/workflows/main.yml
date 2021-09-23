@@ -10,6 +10,6 @@ jobs:
     - name: copy file
       uses: canastro/copy-file-action@master
       with:
-        source: "tests/a.txt"
-        target: "test-a.txt"
+        source: "src/ch/teko/Vertiefungsarbeit/Main.java"
+        target: "src/ch/teko/Vertiefungsarbeit/latest.java"
 
