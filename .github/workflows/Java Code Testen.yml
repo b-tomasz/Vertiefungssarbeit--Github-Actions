@@ -29,5 +29,3 @@ jobs:
           distribution: 'temurin'
           java-version: ${{ matrix.java }}
       - run: java -cp java src/ch/teko/Vertiefungsarbeit/Main.java
-      
-      - run: cp src/ch/teko/Vertiefungsarbeit/Main.java src/ch/teko/Vertiefungsarbeit/Latest.java
